@@ -26,6 +26,8 @@
 .promotion-card__footer{
   display:  flex;
   align-items: center;
+  width: 100%;
+  justify-content: flex-end;
 }
 
 .promotion-card__comment{
@@ -45,4 +47,10 @@
   color: #3498db;
   text-decoration: none;
   padding: 8px 10px;
+}
+
+.promotion-card__info{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
